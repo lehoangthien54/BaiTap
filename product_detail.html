@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/layoutsite.css">
+    <script src="assets/jquery/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+  <header class="section_header bg-light py-2 fixed-top"">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="index.html">
+                    <img src="assets/images/logo.webp" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-8 ">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">Về chúng tôi</a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu font-monospace">
+                          <li><a class="dropdown-item" href="product.html">Áo</a></li>
+                          <li><a class="dropdown-item" href="#">Quần</a></li>
+                          <li><a class="dropdown-item" href="#">Giày & Phụ kiện</a></li>
+                          <li><a class="dropdown-item" href="#">Collection</a></li>
+                          <li><a class="dropdown-item" href="#">Best Saler</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item">
+                      <a class="nav-link text-yellow" href="#">Sale</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Tin tức
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">hot</a></li>
+                          <li><a class="dropdown-item" href="#">mới</a></li>
+                          <li><a class="dropdown-item" href="#">quan tâm</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Khách hàng
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Đăng nhập<a></li>
+                          <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                          <li><a class="dropdown-item" href="#">Đăng kí tài khoản</a></li>
+                        </ul>
+</div>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="contact.html">Liên hệ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Cửa hàng</a>
+                      </li>
+                  </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="nav pt-3">
+                    <li class="nav-item px-2 position-relative">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li class="nav-item px-2 position-relative">
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li class="nav-item px-2 position-relative">
+                        <i class="fa-regular fa-heart"></i>
+                            <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                              +99
+                              <span class="visually-hidden">unread messages</span>
+                            </span>
+                    </li>
+                    <li class="nav-item px-2 position-relative">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                            3
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </li>
+                    <li class="nav-item px-2 position-relative">
+                        <i class="fa-brands fa-shopify"></i>
+                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                            +99
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+    
+<div class="container" style="position: relative;">
+    <h1 class="title-page">
+        <span>Sản phẩm</span>
+    </h1>
+    <div class="row">
+      <aside class="dqdt-sidebar col-md-3">
+        <div class="aside-content aside-content-menu">
+            <div class="title-head">
+                Danh mục sản phẩm
+            </div>
+            <nav class="nav-category">
+                <ul class="nav navbar-pills">
+                    <li class="nav-item relative form-contact">
+                            <a title="Áo" class="nav-link" href="product.html">
+                        <span class="category-name">Áo</span>
+                        <span class="product-count">(40 sản phẩm)</span>
+                    </a>
+
+                    </li>
+                    <li class="nav-item relative form-contact">
+                        <a title="Quần" class="nav-link" href="/quan">
+                            <span class="category-name">Quần</span>
+                            <span class="product-count">(23 sản phẩm)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item relative form-contact">
+                        <a title="Giày &amp; Phụ Kiện" class="nav-link" href="/giay-phu-kien">
+                            <span class="category-name">Giày &amp; Phụ Kiện</span>
+                        </a>
+                    </li>
+                    <li class="nav-item relative  form-contact">
+                        <a title="Giày &amp; Phụ Kiện" class="nav-link" href="/giay-phu-kien">
+                            <span class="category-name">Collection</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>  
+    
+            <div class="col-md-9 py-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao thun.jpg" style="width: 350px;"> </a>                 
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Áo Sweater trơn</b></p>
+                        <div id="rating">
+                          <span class="star" onclick="rate(1)">&#9733;</span>
+                          <span class="star" onclick="rate(2)">&#9733;</span>
+                          <span class="star" onclick="rate(3)">&#9733;</span>
+                          <span class="star" onclick="rate(4)">&#9733;</span>
+                          <span class="star" onclick="rate(5)">&#9733;</span> 
+                      </div>
+                        <p><b>Form Regular</b></p>
+                        <ul class="nav" style="color: #525456;">
+                            <li>Nam</li>
+                            <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                        </ul>
+                        <ul class="nav py-2">
+                            <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                            <li class="nav-item px-2"><del>650.000đ</del> </li>
+                            <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-30</i><i class="fa-solid fa-percent"></i></i>
+                        </ul>
+                        <div id="rating">
+                          <button onclick="decrement()">-</button>
+                          Số lượng: <span id="starCount">0</span>
+                          <button onclick="increment()">+</button>
+                      </div>
+<script>
+  var starCount = 0; // Khởi tạo số lượng sao
+
+function updateStarCount() {
+    document.getElementById("starCount").innerText = starCount;
+}
+
+function increment() {
+    if (starCount < 100) {
+        starCount++;
+        updateStarCount();
+    }
+}
+
+function decrement() {
+    if (starCount > 0) {
+        starCount--;
+        updateStarCount();
+    }
+}
+
+</script>                                   
+                        <div class="d-flex justify-content-between" style="margin-top: 10px;">
+                            <button type="button" class="btn btn-success">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+</div>
+
+
+
+
+
+
+<footer class="section_footer bg-dark text-white pt-4">
+    <div class="row footer">
+      <div class="col-md-4 footerInfo">
+        <h4>THÔNG TIN</h4>
+        <p>Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
+        <ul class="list-unstyled justify-content-end">
+          <li><i class="fa-brands fa-facebook"></i>
+            Lê Hoàng Thiện
+          </li>
+          <li><i class="fa-brands fa-instagram"></i>
+            thienle
+          </li>
+          <li><i class="fa-brands fa-youtube"></i>
+            Thien Vlog
+          </li>
+          <li><i class="fa-brands fa-github"></i>
+            Thiện VIP
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 footerInfo">
+        <h4>CHÍNH SÁCH</h4>
+        <ul>
+          <li><a href="#">Chính sách thành viên</a></li>
+          <li><a href="#">Chính sách vận chuyển</a></li>
+          <li><a href="#">Chăm sóc khách hàng</a></li>
+          <li><a href="#">Phương thức thanh toán</a></li>
+          <li><a href="#">Chính sách đổi trả / bảo hành</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 footerInfo">
+        <h4>Liên Hệ</h4>
+        <p id="address">123 Street, District 1, ABC city</p>
+        <p id="phone">Phone: 123456789</p>
+        <p id="email">Email: contactinfo@gmail.com</p>
+      </div>
+    </div>
+    <hr class="m-0 p-0">
+    <div class="col-12 text-center">
+      <p>Bản quyền thuộc về Thiện Lê</p>
+    </div>	
+  </div>
+</body>
+  </footer>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/layoutsite.js"></script>
+</body>
+</html>

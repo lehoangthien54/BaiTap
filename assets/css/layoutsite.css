@@ -1,0 +1,199 @@
+.footer{
+	background:#000;
+	padding: 50px;
+	/* width: 100%; */
+	color:#fff;
+}
+.footerInfo h4{
+	border-bottom: 3px solid #0000FF;
+	padding-bottom: 5px;
+}
+.footerInfo p, .footerInfo li a{
+	margin-top: 20px;
+	font-size: 0.9em;
+}
+.footerInfo ul{
+	margin-top: 20px;
+}
+.footerInfo ul li{
+
+	line-height: 35px;
+	list-style-position: inside;
+
+}
+.footerInfo li a{
+	text-decoration: none;
+	color:#fff;
+	margin-left: 10px;	
+}
+.footerInfo #address{
+	line-height: 30px;
+	padding-left: 40px;
+}
+.footerInfo #phone{
+	line-height: 30px;
+	padding-left: 40px;
+}
+.footerInfo #email{
+	line-height: 30px;
+	padding-left: 40px;
+}
+.banner img{
+	width: 100%;
+}
+.custom-search-form {
+  width: 600px; /* Đặt độ rộng của thanh tìm kiếm */
+}
+.custom-search-button {
+  padding: 0.25rem 0.5rem; /* Giảm khoảng cách giữa các phần tử bên trong */
+  font-size: 0.8rem; /* Giảm kích thước chữ */
+}
+.col-md-3 {
+  flex: 10%; /* Đặt chiều rộng cho mỗi cột */
+  max-width: 33.333333%;
+  padding: 10px; /* Khoảng cách đều xung quanh mỗi cột */
+  text-align: center; /* Căn giữa nội dung trong cột */
+}
+
+.btn-success {
+    padding: 8; /* Tăng padding để nút lớn hơn */
+    font-size: 12px; /* Tăng kích thước chữ nếu cần */
+}
+.btn-success {
+    background-color: #5bc0de; /* Màu xanh dương nhạt */
+    /* các thuộc tính khác của nút */
+}
+
+.btn-success:hover {
+    background-color: #0275d8; /* Màu xanh đậm khi rê chuột qua */
+}
+
+/* CSS for the aside section */
+.dqdt-sidebar {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.title-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.nav-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-category ul li {
+    margin-bottom: 10px;
+}
+
+.nav-category ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-category ul li a:hover {
+    color: #007bff;
+}
+.title-page {
+    text-align: center;
+}
+
+
+
+
+
+/* CSS cho layout-contact */
+.layout-contact {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.contact,
+
+
+.form-contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h4,
+.form-contact h4 {
+    color: #333;
+}
+
+.group-address ul {
+    list-style: none;
+    padding: 0;
+}
+
+.group-address ul li {
+    margin-bottom: 10px;
+}
+
+.group-address ul li .info {
+    display: flex;
+    align-items: center;
+}
+
+.group-address ul li .info b {
+    margin-right: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+.product-item {
+    position: relative;
+  }
+  
+  .product-info {
+    position: absolute;
+  }
+
+
+
+  .nav-category .nav-link {
+    font-size: 14px; /* Điều chỉnh kích thước chữ */
+}
+
+.nav-category .category-icon {
+    font-size: 12px; /* Điều chỉnh kích thước của biểu tượng */
+}
+
+.nav-category .nav-item1 {
+    padding: 5px 0; /* Điều chỉnh padding của mỗi mục */
+}
+.nav-category .nav-link {
+    text-align: center; /* Căn giữa văn bản */
+    line-height: normal; /* Đặt độ cao dòng về mặc định */
+}
+.nav-category .nav-link {
+    background-color: #f7f8bd; /* Đổi màu nền của các mục danh sách thành màu xám nhạt (#f0f0f0) */
+}
+
+.nav-item1 {
+
+    flex: 1;
+    margin: 0 30px; /* Điều chỉnh khoảng cách giữa các mục nếu cần */
+}
+
